@@ -1,0 +1,5 @@
+AuthGroupFile /dev/null
+AuthName "Shootout Administration"
+AuthType Basic
+require valid-user
+AuthUserFile "/home/poestcom/.htpasswds/public_html/ozarkinternet.net/shootout12/admin/passwd"
