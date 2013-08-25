@@ -2,7 +2,7 @@
 
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
-<TITLE>Registration Detail Screen</TITLE>
+<TITLE>Registration Detail Screen New</TITLE>
 <link href="tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="tablecloth/tablecloth.js"></script>
 </HEAD>
