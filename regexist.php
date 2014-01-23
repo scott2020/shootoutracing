@@ -5,7 +5,7 @@
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
 <META NAME="GENERATOR" CONTENT="Notepad">
 <META NAME="ProgId" CONTENT="Notepad">
-<TITLE>Register Competitor with existing demographics</TITLE>
+<TITLE>Register Competitor with Existing Demographics</TITLE>
 </HEAD>
 
 

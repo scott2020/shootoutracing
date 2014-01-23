@@ -80,7 +80,7 @@ mysql_close($con);
 <BODY>
 <br>
 <br>
-<A HREF="./index.php">Go Back </A>
+<A HREF="./index.php">Go Back</A>
 </BODY>
 
 </HTML>
