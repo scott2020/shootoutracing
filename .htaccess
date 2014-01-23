@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "shootout13"
+AuthUserFile "/home/shootout/passwd"
+require valid-user

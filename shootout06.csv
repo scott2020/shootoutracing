@@ -1,0 +1,97 @@
+driver_first,driver_middle,driver_last,driver_dob,driver_address,driver_address2,driver_city,driver_state,driver_zip,driver_phone,boat_class,boat_number,boat_name,boat_year,boat_mfg,boat_hull,boat_length,boat_engines,boat_block,boat_cuinch,boat_outdrivetype,driver_email
+Steve,,Cornwell,June 10 195,7886 Boukla Ct,address2,West Des Moines,IA,50266,5152246896,PWC3,1,,2005,SeaDoo,,0,0,,0,,scornwell@qwest.net
+Dan,,OKeefe,2/3/1975,P.O. Box 686,address2,Osage Beach,MO,65065,573 216-0690,PWC3,2,,2003,Sea Do RXP,,0,1,,1400,,
+Mike,,Malone,11/28/1952,3540 Douglas,address2,Florissant,MO,63034,314 921-0910,PWC3,3,,2002,Sea Do XP,,0,1,,950,Jet,
+Mike,,Malone,11/16/1989,3540 Douglas,address2,Florissant,MO,63034,314 291-0910,PWC3,4,,2003,Sea Do RXP,,0,1,,1400,Jet,
+Mike,,Trover,June 13 197,3639 State Rd A,address2,Montreal,MO,65591,5732867946,PWC1,1, none given,3,Kawasaki,,0,0,,0,,mjt771@yahoo.com
+Adam,,Toalson,6/15/1983,PO Box 274,address2,Eldon,MO,65026,573 365-1995,PWC1,2,,2005,SeaDoo,V,0,0,,0,,atoalson@glencovemarine.com
+Charlie,,Schaefer,6/15/1958,19370 Sandridge Road,address2,Carlyle,IL,62231,618-594-4882,V4F2,1,Nauti-Girl,1999,,V,0,2,Big Block,500,Merc,charlie@schaefercontracting.co
+Dustin,,Gray,12/24/1971,RR1,address2,Lake Shelbyvill,IL,62534,217-774-3326,V3S2,1,Hillbilly Hayride,1996,Challanger,V,33,2,big blk,502,,
+Joe,,Bartels,Feb 16 1967,544 Sunset,address2,Lake Ozark,MO,65049,,C1P1,1,Catalic Pussy,2001,American Offshore,Tunne,26,1,big block,608,Bravo 1,
+Art DiNick,an,Tim McCall\, throttle,May 21 1941,161 Lake Arbor,address2,Seabrooke,TX,77586,2812355174,C2P2,1,American 1,2,American Offshore,Tunne,31,2,big block,502,B Max
+Bruce,,Taylor,6/13/1944,705 Scottwood,address2,Peoria,IL,61615,309-692-6529,C2S2,1,,2006,Eliminator,Tunne,0,2,Big Block,496,XR,btaylor
+Jeff,,Brozovich,10/19/1958,4548 Sunset Dr,address2,Osage Beach,MO,65065,573-552-2007,C4P2,1,Hollow Point,1999,Skater,tunne,36,0,big blk,588,6s,
+Justin,,Wagner,Apr 15 1980,417 Hwy 54,address2,Osage Beach,MO,65065,5732162179,C2S2,2,,4,American Offshore,Tunne,31,2,big block,496,XR Bravo,
+Mike,,Gordon,5/25/1962,6515 Switzer,address2,Shawnee,KS,66203,913-485-3151,V1F1,1,One Vision,1998,Active Thunder,V,25,0, big block,502,Bravo,H82LUZ1@aol.com
+Steve,,Cline,12/16/1962,805 N. Calhoun Street,address2,West Liberty,IA,52776,319 627-6555,V3F2,1,Turkey Toy,1997,Fountain,V,35,2,big block,525,Bravo One,tcfllc@Lcom.net
+Doug,,Edwards,5/11/1962,14648 Halsey,address2,Olathe,KS,66062,913 908-6696,V3M2,1,Patience,1986,Fountain,V,33,2,,540,Mercruiser,kdedwards@sprintmail.com,
+Mike,,DeFrees,Dec 17\,196,14657 SE River Shore Dr,address2,Vancouver,WA,98683,3606082194,CC4FMP2,1,Team CRC,6,Marine Technology,Tunne,39,2,big block,0,Merc #6,
+Travis,,Blackmore,June 28 198,PO Box 160,address2,Moscow Mills,MO,63362,6362629735,V4P2,1,Wild Card,0,,,0,2,big block,509,#6,,
+Brian,,Pierson,,,address2,,,0,,PWC2,1,,0,,,0,0,,0,,,
+Brad,,Rowland,9/21/1968,RR3 Box 362B,address2,Lake Shelbyvill,IL,61951,217-259-8025,PO1S2,1,Tooned In,2002,Odyssey,,26,2,outboard,0,,,
+Greg,,Surdyke,,5863 Highway 54,address2,Osage Beach,MO,65065,3486575,PWC3,6,,0,Yamaha,,0,0,,0,,Ozark@Surdyke.com,
+Carl,,Mayer,7/30/1959,4048 Domenico Port,address2,Bridgeton,MO,63044,3146031458,PWC3,7,Rude Dog,2005,SeaDoo,,0,0,,0,,,
+Billy,,McClain,April 16 19,733 Woodland,address2,St. Peters,MO,63376,3146807550,PWC3,8,,2003,Yamaha,,0,0,,1300,,,
+ M Janssen\, T Jenssen,,driver 2 and Kent Wills\,,Dec 10 1961,0456 Moonstone,address2,Breckenridge,CO,0,3038866800,V5FFPP2,1,Stampede,6,Fountain Poker Run,V,42,2,,600,Bravo ITS
+Dr. Michael Janssen,,Terry Janssen\, driver 2,Dec 16 1958,10950 W 26th,address2,Denver,CO,80215,3038866800,V6F3,1,Tazmanian Devil,6,Fountain,V,47,3,,525,Merc Bravo,
+Ben,,Lehman,8/8/1987,333 Dou Vey Lane,address2,Ft. Gibson,OK,74434,918-441-7977,C4P2,2,General Lisa,2002,Eliminator,Tunne,36,2,big block,572,#6,,
+Jim,,Dorris,4/25/1944,2229 Serenity Bay,address2,Linn Creek,MO,65052,573 346-7026,P2F1,1,Powertoon X-Treme,2006,Play Craft Boats,,29,1,big block,525,,playcraft@aol.com,
+Carolyn,,Dorris,4/5/1950,229 Serenity Bay,address2,Linn Creek,MO,65052,573 346-7026,PO2S1,1,Powertoon X-Treme,2006,Play Craft Boats,,26,1,outboard,0,,playcraft@aol.com,
+Clayton,,Adams,Nov 10 1973,408 Tenth Ave,address2,Crystal City,MO,63019,6369334709,PWC3,9,,2003,Honda,,0,0,,0,,,
+Rudivani,,Cavataio,,8209 Manchester,address2,St Louis,MO,63144,,PWC3,10,Honda,6,Honda - FTX,,0,0,,0,,,
+Ken Warby and,,Joe Awele  (?) \, throttle,May 9 1939,4400 Charlotte St,address2,Lake Worth,FL,33416,5133533305,V6T2,1,AMF,2004,Outerlimits,V,51,2,,0,Merc 6,
+Marc Granet and,,Scott Begovich\, throttle,Dec 7 1982,4400 Charolette St,address2,Lake Worth,FL,33461,7275426927,CC5T2,1,Platinum Princess,6,Platinum,Tunne,42,2,,0,BM drives,
+Jason Zoelski and,,Brad Harrington\, throttle,,,address2,,,0,,V2M2,1,,1990, Saber, V,28,2, small blo,383, Bravo 1,
+Scott,,Shogren,Feb. 24\,19,3860 Sunset Ave.,address2,Waukegan,IL,60087,8473369037,V5FP2,1,Shogren,2004,Fountain,V,38,2,big block,502,Bravo XR,
+Mike,,Foster,Jan 5 1972,5408 Tasson Pace Ct,address2,St Louis,MO,63128,3142703330,PWC3,11,,5,SeaDoo,,0,0,,0,,,
+T.J.,,Hodge,Aug 2 1979,4207 Morton,address2,Des Moines,IA,50317,5152058698,V3F2,2,Toy Boat,99,Fountain,V,32,0,big block,502,,,
+Alex,,Ashcroft,Mar 13 1966,203 Edwards Dr,address2,Camdenton,MO,65020,5733171412,PWC1,3,,95,Yamaha FX-1,,0,0,,0,,,
+Darin,,Dahl,Nov 16 1978,1514 Dry Creek,address2,Jefferson City,MO,65109,5733530025,PWC3,12,,3,SeaDoo,V,10,0,,0,jet,,
+Chad,,Clark,July 8 1984,2368 Hwy 17,address2,Iberia,MO,65486,5732866150,PWC3,13,,98,Yamaha,,0,0,,0,,,
+Oliver,,Bock,Dec 4 1960,7 The Bridal Path,address2,Toronto,On,0,4168056565,VC6FP3,1,The Candy Shop,7,Outerlimits,V,51,3,big block,557,#6,,
+Dennis,,Hillhouse,April 9 195,26525 W 77th,address2,Shawnee,KS,66227,8165646179,CC4F2,2,D&M Motorsports,2002,MTI,Tunne,39,2,Big Block,502,Imco,,
+W. David,,Scott,June 6\,194,P.O. Box 236,address2,Edwardsville,IL,62025,618 692-1300,CC5P2,1,Budweiser Select,2007,MTI,Tunne,44,2,Big Block,540,Surface,david@natuiboats.com
+Scot,,Conrad,May 3 1969,511 Riverview Ave,address2,Newport Beach,CA,92663,7146174544,C6P2,1,Double Take,2,Skater,tunne,48,2,big blk,357,#6,,
+Eric,,Jacobson,Sept 1 1979,4328 S. Hemlock,address2,Springfield,MO,65820,4178398916,PWC1,4,,5,Kawasaki RNC,,0,0,,0,,,
+Jason,,Finlay,Sept 21 198,45 Jade Rd,address2,Rocky Mount,MO,65072,2806068,PWC1,5,,95,Kawasaki,,0,0,,0,jet,,
+Warren,,Neighbour,2-Sep,4030 Bayberry,address2,Urbandale,IA,50322,5152789555,C2P1,1,SASSY CAT,2000,Profile,Tunne,28,1,Big Block,502,IMGO,,
+Dennis,,Parvey,10/4/1951,2455 133rd Lane,address2,Ham Lake,MN,55304,763-754-2006,V5P2,2,,2000,Black Thunder,V,43,2,big blk,598,Merc #6,dparvey@qwest.net,
+Jim,,Melley,2/18/1967,1042 Ardmore Trail,address2,Hoschton,GA,30548,678 614-8292,CO2F2,1,,2002,Skater,Tunne,28,2,Outboard,300,,
+Scott,,Shogren,Feb 24 1967,3860 Sunset Ave,address2,Waukegan,IL,60087,`8473369057,v6fm3,1,Royal Tee,5,Fountain,V,48,3,big block,502,Bravo XR,
+Scott,,Shogren,,,address2,,,0,,VC4F2,1,,0,,,0,0,,0,,
+Scott,,Shogren,Feb. 24\,19,3860 Sunset Ave.,address2,Waukegan,IL,60087,8473369037,V4FP2,1,Mercury/Shogren,2007,Fountain,V,38,2,big block,502,NXT 1
+Scott Sogren,,Darryl Betler,Feb. 24\,19,3860 Sunset,address2,Waukegon,IL,60087,8473369037,V6D3,1,Berth Control,2004,Fountain,V,48,2,big block,0,Arneson
+Shawn,,King,April 10\,1,5092 St. Clair Road,address2,Onatario,Ca,0,5197916504,V4M2,1,Hustle This,1999,Hustler,V,38,2,big block,572,Bravo
+Bill Pyburn Bob Russel Mi,,,March 8\,19,3634 Camellia Bay Drive,address2,Jox,FL,32223,9048133721,CC6FMP2,1,Ridin Dirty,2007,Outerlimit,V,47,2,big block,557,Mercury #6
+Mark,,Fera,August 6\,1,5306 Victor St.,address2,Downers Grove,IL,60515,6303530559,V1S1,1,Can t Behave,1,Baja,v,0,1,BIG BLK,496,Bravo Merc
+Scott Shogren,,Darryl Betler,,,address2,,,0,,V6D3,2,,0,,,0,0,,0,,
+John,,Tesdall,6/28/1964,330 NW Watercrest Drive,address2,Ankeny,IA,50023,515 965-0881,V3SP2,1,,2002,Baja,V,0,2,big block,0,Bravo XR,
+Randy,,Sweers,Sept. 18\,1,500 N.E. 17th Way,address2,Ft. Lauderdale,FL,33301,9542146038,C4P2,3,Two  Face,2006,Nor-Tech,Tunne,36,0,big block,604,#6
+Leo,,Wiseman,7/1/1954,2370 Patterson,address2,Shelbyville,MI,49344,269-672-7548,V1P1,1,Wise Guy,2001,Velocity,V,26,1,Big Block,0,Bravo,
+Jim,,Valako,6/7/1957,2719 Royal Vista,address2,Walker,MI,49544,616 8890928,V2M1,1,Heads I Win,1992,Fountain,V,27,1,Big Block,565,Bravo,valakoraceheads@aol.com
+Ronnie,,Denbow,6/8/1960,212 County Line Road,address2,St. Joseph,MO,64505,816-279-0020,V2S1,1,Blown Income,1996,Profile,V,27,1,Big Block,502,Bravo 1,
+Scott,,Shogren,Feb 24 1967,3860 Sunset,address2,Waukegan,IL,60087,8473369037,V5FFP2,1,Shogren,2007,Fountain,V,42,2,big block,502,NXT 1,
+Stan Ware,,David Wade,6-13-1954 &,18465 Old Perkins Road,address2,Naperville,LA,70769,,CC4F2,3,Popeyes,2004,,Tunne,36,2,sm. block,502,TMCO 4x4,
+Ivan,,Stracener,Jan. 26\,19,10189 Canyon Vista,address2,Morena Valley,CA,92557,951-242-9227,V3P2,1,Outtabuck$,2005,Kachina,V,34,0,big blk,540,XR,
+David,,Callan,May 5\,1961,400 Madison Ave.,address2,New York,NY,10017,,CC6P2,1,Longlite,2005,Callan Marine,Tunne,50,2,,0,BPM,
+Alvin,,Heathman,Oct. 25\,19,478 Spyglass Circle,address2,Camdenton,MO,65020,314-226-3837,CC4F2,4,Professional Marine,6,Skater,tunne,38,2,big blk,502,#6 Merc,
+Mike,,Misplay,1/17/1963,P.O. Box 1005,address2,Ft Morgan,CO,80701,970-580-1035,CC4M2,1,Total Insanity,2003,Eliminator,tunne,36,2,big blk,588,Bravo,mikem@rodinetechnology,
+Dave,,Tokos,Dec. 20\,19,12121 Fairway Winds Ct.,address2,Ft. Wayne,IN,46814,2604030843,V2P1,1,,1996,Fountain,V,27,1,sm. block,548,Bravo XR,
+Nick Unnerstall,,Rob Unnerstall,,728 Hillenkamp,address2,St. Charles,MO,63304,314-581-3141,V5P2,3,Power Trip,2003,Nor-Tech,V,43,2,big block,0,#6 SM,,
+Chris,,Closterman,Sept. 15\,1,933 Stonehaven,address2,Marshal,MO,65340,,V3P2,2,,1999,Scarab AVS,V,33,2,sm blk,502,Bravo,
+Bob,,Alexander,9/26/1961,19010 Walmer,address2,Stilwell,KS,66085,816-985-2000,P3S2,1,Party Cat,2006,Advantage,Tunne,34,2,big block,496,XR,,
+Lisa Mathews,,Randy Kent\, throttle,June 2\,196,7007 College Blvd,address2,C.P. ?,KS,66211,913-908-7223,C5P2,1,Speed Racer,6,MTI,tunne,44,2,big blk,557,Surface Dr
+Scott Shogren,,,Feb 24 1967,3860 Sunset Ave,address2,Waukegen,IL,60087,847-336-9057,v6fm3,2,Royal Tee,5,Fountain,V,48,3,big blk,502,Bravo XR,,
+Richard,,Prince,June 10\,19,5301 Washinstonian Drive,address2,Metairie,LA,7003,5047809447,C4P2,4,Simple Life,2006,MTI,Tunne,39,2,big block,565,#6,
+David Weyer,,Don Sylver,Dec. 29\,19,P.O. Box 195,address2,Sunrise Beach,MO,65079,5733747095,V3M2,2,,2004,Advantage,V,32,2,sm. block,505,Teague,
+Pat,,Midas,June 2\,196,9600 Huskens Ave.,address2,Hastings,FL,32145,9045918848,V2F1,1,Team Velocity,2005,Velocity,V,28,1,big block,502,Merc XR,
+JOHN,,MALECKY,8/30/1961,21640 Millsdale Road,address2,Elwood,IL,60421,208-650-0470,V5M2,1,Hammertime,2005,Fountain,V,0,2,big block,572,IMCO,,
+Rusty,,Rahm,2/23/1970,10505 Highland Lane,address2,Olathe,KS,66061,913 248-1800,V6FMP2,1,,0,,,0,0,,0,,rrahm@millmrk.com,
+PAT,,GIBBONS,1/28/1969,2181 State Road O,address2,Highlandville,MO,65669,417-443-3516,C1S1,1,,1999,Eliminator,Tunne,25,1,big block,502,Bravo,,
+Steve,,Wallace,7/19/1969,63 Cassman,address2,Rocky Mount,MO,65072,573 365-1614,C2F2,1,,1994,Skater,Tunne,28,2,outboard,0,,
+BRADY,,WILLIAMS,5/4/1974,2605 N. 24th St.,address2,Ozark,MO,65721,417-839-3774,C2S2,3,,2002,Eliminator,Tunne,127,2,big block,496,XR,
+Hall,,J.O.,10/20/1934,26910 Marina Lane,address2,Barnett,MO,65011,573-372-3142,V2P1,2,Tension 3,1986,Sleekcraft,V,127,1,big block,600,Merc 3,
+Don Stout,,Randy Stout,5/17/1940, Box 529,address2,Lexington,MO,64067,660-259-4691,C3M2,1,Gunstock II,1989,Skater,Tunne,32,2,sm. block,598,V,
+LOUIE,,MARCHESE,8/4/1971,205 Virginia St.,address2,Coal City,IL,60416,815-634-4136,V3F2,3,Crazy Days,2006,Donzi,V,35,2,big block,502,XR,
+Mark,,Kinser,11/4/1961,10890 NW 54th,address2,Grimes,IA,50111,515-986-2253,C1P1,2,,2000,Eliminator,Tunne,26,1,Big Block,581,#6,
+Bob,,Morgan,,32697,address2,Gravois,MO,65037,573-374-5692,V4FP2,2,,2007,Donzi,V,38,2,big block,502,,
+Dave,,Bernshausen,7/14/1952,233 Southmoor,address2,Manito,IL,61546,309-968-6817,V2S2,1,Bullet Proof,1988,Cigarette,V,31,2,Big Block,454,Bravo One,jdbernshausen@grics.net
+Ron,L.,Hodges,12/3/1942,4150 Lake Mist Drive,address2,Kennesaw,GA,30144,770-426-1512,C1F2,1,,2002,Eliminator,Tunne,26,2,Outboard,0,,ellishodges2@comcast.net
+Richard,,Roth,4/19/1969,RR 1\, Box 228M,address2,Clinton,IL,61727,219-935-6155,V4F2,2,Peanut Gallary,1999,PowerQuest,V,38,0,big block,525,Bravo
+Troy,,Herrick,10/22/1968,15984 W. 159th Terr.,address2,Olathe,KS,66062,913-208-8329,V3S2,2,My First #1,1999,Wellscraft Scarab,V,33,2,big block,502,Bravo 1,
+Joe,,Dinatale,3/9/1961,46 Pickwick,address2,Camdenton,MO,65020,573-873-3290,P1P1,1,Freaktilla,1997,Rinker Float,,24,1,,509,Bravo One,joenjoan@hotmail.com
+Greg,,Olson,7/23/1958,2692 CR 57,address2,Alliance,NE,69301,308-760-0581,C1P1,3,NA,2001,Eliminator,Tunne,26,1,big block,639,Max Machin,greg@vitalix.com
+George,,Stancombe,,,address2,,,0,,CC4FM2,1,,0,,,0,0,,0,,
+Dennis,,McElhaney,4/12/1962,1440 NW 102nd,address2,Clive,IA,50325,515 681-1460,V4P2,2,,1994,Scarab,V,38,2,Big Block,502,Bravo,
+Dennis Berry,,Neil Wobbe,9/19/1953,5974 Moro Road,address2,Moro,IL,62067,618-377-4610,CCO3S2,1,Berrycuda,2006,Doug Wright,Tunne,32,2,outboard,280,,berrycuda@hotmail.com
+Terry,,Sobo,6/21/1963,233 Ledges,address2,Lake Ozark,MO,65065,636-236-4141,v4fm2,1,Thaz Right,2005,Nortech,,36,2,,602,Merc 6/Dry,jmdarr4490@aol.com

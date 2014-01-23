@@ -1,0 +1,7 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /etc/webpasswords/shootout/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
+
+php_value register_globals 1

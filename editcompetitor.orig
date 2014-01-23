@@ -1,0 +1,233 @@
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Language" CONTENT="en-us">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="GENERATOR" CONTENT="Microsoft FrontPage 5.0">
+<META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
+<TITLE>Competitor Edit Screen</TITLE>
+</HEAD>
+
+
+<?php
+
+#echo "You clicked $class <br>";
+
+$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
+mysql_select_db("shootout",$con);
+
+$sql = "SELECT * from competitors WHERE competitor_id = '$competitor'";
+$classresult = mysql_query($sql);
+
+$num = 0;
+$num = mysql_numrows($classresult);
+
+echo "There were $num Rows of data returned. <br>";
+
+#  ***  Look up for the first time entering screen **
+
+$i = 0;
+while ($i < $num) {
+	$boat_class = mysql_result($classresult,$i,"boat_class");
+	$boat_number = mysql_result($classresult,$i,"boat_number");
+	$driver_first = mysql_result($classresult,$i,"driver_first");
+	$driver_middle = mysql_result($classresult,$i,"driver_middle");
+	$driver_last = mysql_result($classresult,$i,"driver_last");
+	$driver_dob = mysql_result($classresult,$i,"driver_dob");
+	$driver_address = mysql_result($classresult,$i,"driver_address");
+#	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
+	$driver_city = mysql_result($classresult,$i,"driver_city");
+	$driver_state = mysql_result($classresult,$i,"driver_state");
+	$driver_zip = mysql_result($classresult,$i,"driver_zip");
+	$driver_dl = mysql_result($classresult,$i,"driver_dl");
+	$driver_phone = mysql_result($classresult,$i,"driver_phone");
+	$owner_first = mysql_result($classresult,$i,"owner_first");
+	$owner_middle = mysql_result($classresult,$i,"owner_middle");
+	$owner_last = mysql_result($classresult,$i,"owner_last");
+	$owner_address = mysql_result($classresult,$i,"owner_address");
+	$owner_city = mysql_result($classresult,$i,"owner_city");
+	$owner_state = mysql_result($classresult,$i,"owner_state");
+	$owner_zip = mysql_result($classresult,$i,"owner_zip");
+	$owner_phone = mysql_result($classresult,$i,"owner_phone");
+	$sponsor_name = mysql_result($classresult,$i,"sponsor_name");
+	$sponsor_address = mysql_result($classresult,$i,"sponsor_address");
+	$emer_first = mysql_result($classresult,$i,"emer_first");
+	$emer_last = mysql_result($classresult,$i,"emer_last");
+	$emer_address = mysql_result($classresult,$i,"emer_address");
+	$emer_phone = mysql_result($classresult,$i,"emer_phone");
+	$emer_relation = mysql_result($classresult,$i,"emer_relation");
+	$boat_name = mysql_result($classresult,$i,"boat_name");
+	$boat_year = mysql_result($classresult,$i,"boat_year");
+	$boat_mfg = mysql_result($classresult,$i,"boat_mfg");
+	$boat_hull = mysql_result($classresult,$i,"boat_hull");
+	$boat_length = mysql_result($classresult,$i,"boat_length");
+	$boat_engines = mysql_result($classresult,$i,"boat_engines");
+	$boat_block = mysql_result($classresult,$i,"boat_block");
+	$boat_cuinch = mysql_result($classresult,$i,"boat_cuinch");
+	$boat_outdrivetype = mysql_result($classresult,$i,"boat_outdrivetype");
+	$boat_mods = mysql_result($classresult,$i,"boat_mods");
+	$boat_state = mysql_result($classresult,$i,"boat_state");
+
+
+
+#	echo "Class ID is $class_id and Class is $class_name and Count is $class_count <BR>";
+
+	++$i;
+    #$sql = "UPDATE classes SET class_count=(class_count + 1) WHERE class_id = '$class_id'";
+	
+	
+
+}
+
+mysql_close($con);
+
+#  if ($cmdUpdatereg) {
+#
+#	echo "Competitor is $competitor <BR>";
+#	echo "<br>";
+#
+#	$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
+ # 
+#	$sql = "";
+#
+#	mysql_select_db("shootout",$con);
+#	$sql = "UPDATE competitors SET driver_first = '$txtFirst',driver_middle='$txtMiddle',driver_last='$txtLast' WHERE competitor_id=$competitor";
+ 
+ #,driver_dob,driver_address,driver_address2,driver_city,driver_state,driver_zip,driver_dl,driver_phone,owner_first,owner_middle,owner_last,owner_address,owner_city,owner_state,owner_zip,owner_phone,sponsor_name,sponsor_address,emer_first,emer_last,emer_address,emer_phone,emer_relation,boat_name,boat_year,boat_mfg,boat_hull,boat_length,boat_engines,boat_block,boat_cuinch,boat_outdrivetype,boat_mods,boat_state) VALUES ('$txtFirst','$txtMiddle','$txtLast','$txtDOB','$txtAddress','address2','$txtCity','$txtState','$txtZip','$txtDL','$txtPhone','$txtOwnFirst','$txtOwnMiddle','$txtOwnLast','$txtOwnAddress','$txtOwnCity','$txtOwnSt','$txtOwnZip','$txtOwnPhone','$txtSponsorname','$txtSponsorAddress','$txtEmerFirst','$txtEmerLast','emeraddress','$txtEmerPhone','emerRelation','$txtBoatname','$txtBoatyear','$txtBoatmfg','$txtBoathull','$txtBoatlength','$txtBoatengines','$txtBoatblock','$txtBoatCuinch','$txtOutdrive','$txtBoatmods','ST')";
+
+ #  $result = mysql_query($sql);
+  # echo "result = $result<br>\n";
+#	if ($result=1) {
+#
+#		echo "Update Successful! <br>";
+#	}
+#	else {
+#		echo "Update Bombed with error $result <br>";
+#	}
+	
+#  *** Start of refresh current screen after update ***
+#  **  pain but I guess it will work **
+
+	
+#	$sql = "SELECT * from competitors WHERE competitor_id = '$competitor'";
+#	$classresult = mysql_query($sql);
+
+#	$num = 0;
+#	$num = mysql_numrows($classresult);
+
+#	echo "There were $num Rows of data returned. <br>";
+
+#	$i = 0;
+#	while ($i < $num) {
+#		$boat_class = mysql_result($classresult,$i,"boat_class");
+#		$boat_number = mysql_result($classresult,$i,"boat_number");
+##		$driver_middle = mysql_result($classresult,$i,"driver_middle");
+#		$driver_last = mysql_result($classresult,$i,"driver_last");
+#		$driver_dob = mysql_result($classresult,$i,"driver_dob");
+#		$driver_address = mysql_result($classresult,$i,"driver_address");
+#	#	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
+#		$driver_city = mysql_result($classresult,$i,"driver_city");
+#		$driver_state = mysql_result($classresult,$i,"driver_state");
+#		$driver_zip = mysql_result($classresult,$i,"driver_zip");
+#		$driver_dl = mysql_result($classresult,$i,"driver_dl");
+#		$driver_phone = mysql_result($classresult,$i,"driver_phone");
+#		$owner_first = mysql_result($classresult,$i,"owner_first");
+#		$owner_middle = mysql_result($classresult,$i,"owner_middle");
+##		$owner_address = mysql_result($classresult,$i,"owner_address");
+#		$owner_city = mysql_result($classresult,$i,"owner_city");
+#		$owner_state = mysql_result($classresult,$i,"owner_state");
+#		$owner_zip = mysql_result($classresult,$i,"owner_zip");
+#		$owner_phone = mysql_result($classresult,$i,"owner_phone");
+#		$sponsor_name = mysql_result($classresult,$i,"sponsor_name");
+#		$sponsor_address = mysql_result($classresult,$i,"sponsor_address");
+#		$emer_first = mysql_result($classresult,$i,"emer_first");
+#		$emer_last = mysql_result($classresult,$i,"emer_last");
+#		$emer_address = mysql_result($classresult,$i,"emer_address");
+#		$emer_phone = mysql_result($classresult,$i,"emer_phone");
+#		$emer_relation = mysql_result($classresult,$i,"emer_relation");
+#		$boat_name = mysql_result($classresult,$i,"boat_name");
+#		$boat_year = mysql_result($classresult,$i,"boat_year");
+#		$boat_mfg = mysql_result($classresult,$i,"boat_mfg");
+#		$boat_hull = mysql_result($classresult,$i,"boat_hull");
+#		$boat_length = mysql_result($classresult,$i,"boat_length");
+#		$boat_engines = mysql_result($classresult,$i,"boat_engines");
+#		$boat_block = mysql_result($classresult,$i,"boat_block");
+#		$boat_cuinch = mysql_result($classresult,$i,"boat_cuinch");
+#		$boat_outdrivetype = mysql_result($classresult,$i,"boat_outdrivetype");
+#		$boat_mods = mysql_result($classresult,$i,"boat_mods");
+#		$boat_state = mysql_result($classresult,$i,"boat_state");
+
+
+
+#	echo "Class ID is $class_id and Class is $class_name and Count is $class_count <BR>";
+
+#	++$i;
+    #$sql = "UPDATE classes SET class_count=(class_count + 1) WHERE class_id = '$class_id'";
+	
+	
+
+#}
+
+#    mysql_close($con);
+#}
+
+?>
+
+<BODY>
+<form name="registrationdetail" method="post" action="./updatecompetitor.php?competitor=<?php echo "$competitor" ?>">
+<INPUT TYPE="hidden" NAME="txtClassname" VALUE = <?php echo $class_name ?>>
+<INPUT TYPE="hidden" NAME="txtClasscount" VALUE = <?php echo $class_count ?>>
+<br>
+<P><FONT FACE="Arial" SIZE="2">Registration Edit Screen<br>
+<FONT FACE="Arial" SIZE="4">BOAT CLASS: <?php echo "$boat_class-$boat_number"; ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><BR>
+<B><U><br>
+<FONT FACE="Arial" SIZE="2">
+Driver Information<br>
+</U></B>First&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middle&nbsp;
+Last&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Date of Birth<BR>
+<INPUT TYPE="text" SIZE="20" NAME="txtFirst" VALUE="<?php echo $driver_first ?>"><INPUT TYPE="text" SIZE="6" NAME="txtMiddle" VALUE="<?php echo $driver_middle ?>"><INPUT TYPE="text" SIZE="20" NAME="txtLast" VALUE="<?php echo $driver_last ?>"><INPUT TYPE="text" SIZE="20" NAME="txtDOB" VALUE="<?php echo $driver_dob ?>"><BR>
+Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Address 2<BR>
+<INPUT TYPE="text" SIZE="27" NAME="txtAddress" VALUE="<?php echo $driver_address ?>"><INPUT TYPE="text" SIZE="26" name="txtAddress2"><BR>
+City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ST&nbsp;&nbsp;&nbsp;&nbsp; Zip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Drivers License&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone Number<BR>
+<INPUT TYPE="text" SIZE="16" NAME="txtCity" VALUE="<?php echo $driver_city ?>"><INPUT TYPE="text" SIZE="4" NAME="txtState" VALUE="<?php echo $driver_state ?>"><INPUT TYPE="text" SIZE="9" NAME="txtZip" VALUE="<?php echo $driver_zip ?>"><INPUT TYPE="text" SIZE="16" NAME="txtDL" VALUE="<?php echo $driver_dl ?>"><INPUT TYPE="text" SIZE="15" NAME="txtPhone" VALUE="<?php echo $driver_phone ?>"><BR>
+<U><B><br>
+Owner Information<BR>
+</B></U>First&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Middle&nbsp;&nbsp;&nbsp; Last<U><B><BR>
+<INPUT TYPE="text" SIZE="20" NAME="txtOwnFirst" VALUE="<?php echo $owner_first ?>"><INPUT TYPE="text" SIZE="5" NAME="txtOwnMiddle" VALUE="<?php echo $owner_middle ?>"><INPUT TYPE="text" SIZE="20" NAME="txtOwnLast" VALUE="<?php echo $owner_last ?>"><BR>
+</B></U>Address<BR>
+<INPUT TYPE="text" SIZE="47" NAME="txtOwnAddress" VALUE="<?php echo $owner_address ?>"><BR>
+City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Zip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone
+Number<BR>
+<INPUT TYPE="text" SIZE="15" NAME="txtOwnCity" VALUE="<?php echo $owner_city ?>"><INPUT TYPE="text" SIZE="3" NAME="txtOwnSt" VALUE="<?php echo $owner_state ?>"><INPUT TYPE="text" SIZE="11" NAME="txtOwnZip" VALUE="<?php echo $owner_zip ?>"><INPUT TYPE="text" SIZE="20" NAME="txtOwnPhone" VALUE="<?php echo $owner_phone ?>"></FONT></P>
+<P><FONT FACE="Arial" SIZE="2"><U><B>Sponsor Information<BR>
+</B></U>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Address<BR>
+<INPUT TYPE="text" SIZE="24" NAME="txtSponsorname" VALUE="<?php echo $sponsor_name ?>"><INPUT TYPE="text" SIZE="28" NAME="txtSponsorAddress" VALUE="<?php echo $sponsor_address ?>"></FONT></P>
+<P><font face="Arial" size="2"><u><b>Emergency Contact Information<br>
+</b></u>First&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Last&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Phone Number<br>
+<input type="text" name="txtEmerFirst" size="23" VALUE="<?php echo $emer_first ?>"><input type="text" name="txtEmerLast" size="29" VALUE="<?php echo $emer_last ?>"><input type="text" name="txtEmerPhone" size="20" VALUE="<?php echo $emer_phone ?>"></font></P>
+<P><font face="Arial" size="2"><u><b>Boat Information<br>
+</b></u>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Outdrive<br>
+<input type="text" name="txtBoatname" size="40" VALUE="<?php echo $boat_name ?>"><input type="text" name="txtOutdrive" size="20" VALUE="<?php echo $boat_outdrivetype ?>"><br>
+Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Manufacturer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Length&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hull&nbsp;&nbsp;&nbsp; Engines&nbsp;&nbsp;&nbsp; 
+Block&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cu Inch<br>
+<input type="text" name="txtBoatyear" size="7" VALUE="<?php echo $boat_year ?>"><input type="text" name="txtBoatmfg" size="23" VALUE="<?php echo $boat_mfg ?>"><input type="text" name="txtBoatlength" size="9" VALUE="<?php echo $boat_length ?>"><input type="text" name="txtBoathull" size="4" VALUE="<?php echo $boat_hull ?>"><input type="text" name="txtBoatengines" size="6" VALUE="<?php echo $boat_engines ?>"><input type="text" name="txtBoatblock" size="9" VALUE="<?php echo $boat_block ?>"><input type="text" name="txtBoatCuinch" size="10" VALUE="<?php echo $boat_cuinch ?>"><br>
+Modifications<br>
+<input type="text" name="txtBoatmods" size="75" VALUE="<?php echo $boat_mods ?>"></font></P>
+<P><FONT FACE="Arial" SIZE="2"><INPUT TYPE="submit" VALUE="Update" NAME="cmdUpdatereg"></FONT></P>
+</form>
+</BODY>
+
+</HTML>
