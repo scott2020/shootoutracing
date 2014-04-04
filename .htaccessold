@@ -1,4 +1,4 @@
-AuthName "Restricted Area" 
+AuthName "Restricted Area Testing Github" 
 AuthType Basic 
 AuthUserFile /etc/webpasswords/shootout/.htpasswd 
 AuthGroupFile /dev/null 
