@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <TITLE> Search Form </TITLE>
-<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Generator" CONTENT="BallsEditPlus">
 <META NAME="Author" CONTENT="">
 <META NAME="Keywords" CONTENT="">
 <META NAME="Description" CONTENT="">
