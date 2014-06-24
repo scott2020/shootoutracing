@@ -5,6 +5,10 @@
 <body bgcolor="white">
 <?php
 
+include('../register_globals.php');
+register_globals();
+
+
 $con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 
 mysql_select_db("shootout",$con);
