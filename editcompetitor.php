@@ -14,6 +14,9 @@
 #echo "You clicked $class <br>";
 
 include './config.php';
+include('register_globals.php');
+register_globals();
+
 
 $competitor = $_GET['competitor'];
 

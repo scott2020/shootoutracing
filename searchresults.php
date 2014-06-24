@@ -15,6 +15,9 @@
 
 <?php
 include './config.php';
+include('register_globals.php');
+register_globals();
+
 
 	trim($searchtext);
 	if (!$searchtype || !searchtext)

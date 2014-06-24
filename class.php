@@ -27,6 +27,9 @@ If you do not see the class you need to register, enter it in the box and click 
 
 <?php
 include './config.php';
+include('register_globals.php');
+register_globals();
+
 #$cmdAddclass = $_GET['cmdAddclass'];
 #$txtClass = $_GET['txtClass'];
 if ($cmdAddclass) {

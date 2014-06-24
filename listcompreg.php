@@ -15,6 +15,9 @@ This is a list of last year's competitors.
 
 <?php
 include './config.php';
+include('register_globals.php');
+register_globals();
+
 $competitor = $_GET['competitor'];
 $class= $_GET['class'];
 $classname= $_GET['classname'];

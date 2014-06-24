@@ -17,6 +17,9 @@
 #$classname = $_GET['classname'];
 #$class_count = $_GET['class_count'];
 #$class = $_GET['class'];
+include('register_globals.php');
+register_globals();
+
 
 echo "<br><h2> Registering a competitor for class $classname </h2> <br>";
 

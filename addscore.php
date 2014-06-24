@@ -13,6 +13,9 @@
 <?php
 
 include './config.php';
+include('register_globals.php');
+register_globals();
+
 
 $competitor=$_REQUEST["competitor"];
 $class=$_REQUEST["class"];

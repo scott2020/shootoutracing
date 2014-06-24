@@ -12,6 +12,9 @@
 
  <?php
  include './config.php';
+ include('register_globals.php');
+register_globals();
+
 
 	echo "Adding Competitor number $competitor <BR>";
 	echo "<br>";

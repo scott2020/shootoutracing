@@ -12,6 +12,9 @@
 <p align="center"><img border="0" src="page_top.gif" width="610" height="88"></p>
 
 <?php
+
+include('register_globals.php');
+register_globals();
 	
 #	$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
    
