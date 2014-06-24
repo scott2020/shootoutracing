@@ -15,6 +15,9 @@
 
 # Lookup the class
 include './config.php';
+include('register_globals.php');
+register_globals();
+
 
 #$competitor = $_GET['competitor'];
 #$classname = $_GET['classname'];
