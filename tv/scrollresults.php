@@ -15,30 +15,8 @@
 These are the scores for the Lake Shootout <br>
 Current as of <?=date( "F d, Y  H:i T.")?><br>
 
-<!--[if IE]>
-
-<IE:Download ID="marqueedata" STYLE="behavior:url(#default#download)" /> 
-<marquee id="externalmarquee" direction=up scrollAmount=4 style="width:800px;height:600px;border:1px solid black;padding:3px" onMouseover="this.scrollAmount=2" onMouseout="this.scrollAmount=2" src="byclasstv.php">
-</marquee>
+<marquee  behavior="scroll" direction="up">Your upward scrolling text goes here</marquee>
 
 
-<script language="JavaScript1.2">
-
-
-function downloaddata(){
-marqueedata.startDownload(externalmarquee.src,displaydata)
-}
-
-function displaydata(data){
-externalmarquee.innerHTML=data
-}
-
-if (document.all)
-window.onload=downloaddata
-
-
-</script>
-
-<![endif]-->
 </BODY>
 </HTML>
