@@ -42,7 +42,7 @@ while ($i < $num) {
 	$boat_class = mysql_result($result,$i,"boat_class");
 
 	echo "<br><br>";
-	echo "<marquee behaviour='scroll' direction='up'>;
+	echo "<marquee behaviour='scroll' direction='up'>";
 	echo "<h2>Class:$boat_class</h2>";
 
 
