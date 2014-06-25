@@ -60,7 +60,7 @@ while ($i < $num) {
 	echo "<tr>";
 	echo "<td width='13%'><p align='center'>Speed</td><td width='24%'><p align='center'>Driver</td><td width='5%'><p align='center'>Boat No</td><td width='20%'>Run Time</td><td width='33%'><p align='center'>Owner</td>";
 	echo "</tr>";
-	echo "</table>";
+	echo "</marquee></table>";
 	
      $j = 0;
      while ($j < $num2) {
@@ -95,7 +95,7 @@ echo "</table>";
 
 
 
-echo "</marquee><hr>";
+echo "<hr>";
 mysql_close($con);
 
 ?>
