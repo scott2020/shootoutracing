@@ -135,7 +135,7 @@ while ($j < $num) {
 	
 	++$j;
 	
-	echo '<h3>Run: ';
+	echo '<h3>Run #';
 	echo $run_id;
 	echo ' --- ';
 	echo $speed;
