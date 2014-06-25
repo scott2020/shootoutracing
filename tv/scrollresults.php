@@ -86,7 +86,7 @@ while ($i < $num) {
 
 ++$i;
 
-echo "</marquee></table>";
+echo "</table>";
 
 }
 
@@ -95,7 +95,7 @@ echo "</marquee></table>";
 
 
 
-echo "<hr>";
+echo "</marquee><hr>";
 mysql_close($con);
 
 ?>
