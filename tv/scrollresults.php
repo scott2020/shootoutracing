@@ -34,7 +34,7 @@ echo "<hr>";
 
 $num = 0;
 $num = mysql_numrows($result);
-echo "<marquee behaviour='scroll' direction='up'>";
+echo "<marquee behaviour='scroll' scrollamount='3' direction='up'>";
 
 
 $i = 0;
