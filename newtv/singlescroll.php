@@ -26,6 +26,9 @@
 <IE:Download ID="marqueedata" STYLE="behavior:url(#default#download)" /> 
 
 <?php
+include('../register_globals.php');
+register_globals();
+
 echo "<marquee id='externalmarquee' direction=up scrollAmount=4 style='width:560px;height:290px;border:0px solid black;padding:3px' onMouseover='this.scrollAmount=4' onMouseout='this.scrollAmount=4' src=singleclass.php?class=$class&classname=$classname>"
 ?>
 

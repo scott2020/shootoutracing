@@ -14,6 +14,9 @@
 <h1> Choose a class for results </h1>
 <?php
 include '../config.php';
+include('../register_globals.php');
+register_globals();
+
 
 $con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
