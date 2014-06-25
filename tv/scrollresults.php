@@ -42,6 +42,7 @@ while ($i < $num) {
 	$boat_class = mysql_result($result,$i,"boat_class");
 
 	echo "<br><br>";
+	echo "<marquee behaviour='scroll' direction='up'>;
 	echo "<h2>Class:$boat_class</h2>";
 
 
@@ -54,7 +55,7 @@ while ($i < $num) {
  
    $num2 = 0;
    $num2 = mysql_numrows($result2);
-    echo "<marquee>";
+   
 	echo "<table border='1' width='95%'>";
 	echo "<tr>";
 	echo "<td width='13%'><p align='center'>Speed</td><td width='24%'><p align='center'>Driver</td><td width='5%'><p align='center'>Boat No</td><td width='20%'>Run Time</td><td width='33%'><p align='center'>Owner</td>";
