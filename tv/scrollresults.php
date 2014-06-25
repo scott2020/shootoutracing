@@ -15,7 +15,7 @@
 These are the scores for the Lake Shootout <br>
 Current as of <?=date( "F d, Y  H:i T.")?><br>
 
-<marquee  behavior="scroll" direction="up"><?php echo file_get_contents('byclasstv.php'); ?></marquee>
+<marquee  behavior="scroll" direction="up"><iframe src="byclasstv.php" height="20" width="100%"></iframe></marquee>
 
 
 </BODY>
