@@ -40,7 +40,7 @@ while ($i < $num) {
 	$driver_last = mysql_result($classresult,$i,"driver_last");
 	$driver_dob = mysql_result($classresult,$i,"driver_dob");
 	$driver_address = mysql_result($classresult,$i,"driver_address");
-#	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
+	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
 	$driver_city = mysql_result($classresult,$i,"driver_city");
 	$driver_state = mysql_result($classresult,$i,"driver_state");
 	$driver_zip = mysql_result($classresult,$i,"driver_zip");
@@ -87,6 +87,8 @@ Driver Information for <?php echo $boat_class ?> - <?php echo $boat_number ?>
 <tr>
 <td width="59%" valign="top" align="left">
 <h3><u>Driver:</u><br><?php echo $driver_first.' '.$driver_middle.' '.$driver_last; ?> From <?php echo $driver_city.' ,'.$driver_state ?>
+<br>
+<u>ThrottleMan:</u><br> <?php echo $driver_address2 ?>
 <br>
 <u>Boat Name:</u><br> <?php echo $boat_name ?>
 <br>
