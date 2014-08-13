@@ -49,7 +49,7 @@ while ($i < $num) {
 	$driver_last = mysql_result($classresult,$i,"driver_last");
 	$driver_dob = mysql_result($classresult,$i,"driver_dob");
 	$driver_address = mysql_result($classresult,$i,"driver_address");
-#	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
+	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
 	$driver_city = mysql_result($classresult,$i,"driver_city");
 	$driver_state = mysql_result($classresult,$i,"driver_state");
 	$driver_zip = mysql_result($classresult,$i,"driver_zip");
