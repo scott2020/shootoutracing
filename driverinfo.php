@@ -87,15 +87,15 @@ Driver Information for <?php echo $boat_class ?> - <?php echo $boat_number ?>
 <tr>
 <td width="59%" valign="top" align="left">
 <h3><u>Driver:</u><br><?php echo $driver_first.' '.$driver_middle.' '.$driver_last; ?> From <?php echo $driver_city.' ,'.$driver_state ?>
-<br>
+<br><br>
 <u>ThrottleMan:</u><br> <?php echo $driver_address2 ?>
-<br>
+<br><br>
 <u>Boat Name:</u><br> <?php echo $boat_name ?>
-<br>
+<br><br>
 <u>Boat Info:</u><br><?php echo $boat_year.' '.$boat_mfg.' '.$boat_length; ?> feet.
-<br>
+<br><br>
 <u>Boat Mods:</u><br><?php echo $boat_mods ?>
-<br>
+<br><br>
 <u>Boat Engine:</u><br> There are <?php echo $boat_engines ?> engines that are <?php echo $boat_cuinch ?> cubic inches.
 <br></h3>
 <h3>This boat is sponsored by <?php echo $sponsor_name ?></h3>
