@@ -165,7 +165,7 @@ mysql_close($con);
 ?>
 </td>
 </tr>
-
+<A HREF = './index.php'> back to Main Menu</A>
 </BODY>
 
 </HTML>
