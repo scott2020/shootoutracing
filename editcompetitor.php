@@ -210,17 +210,11 @@ Driver Information<br></FONT></U></B></font></P>
 </b></u></font></P>
 </font><FONT FACE="Arial Narrow" SIZE="2">
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="68%" id="AutoNumber5">
-  <tr>
-    <td width="27%">Name</td>
+ <tr>
+    <td width="27%">Boat Name</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2">
 <input type="text" name="txtBoatname" size="40" VALUE="<?php echo $boat_name ?>"></td>
-  </tr>
-  <FONT FACE="Arial Narrow" SIZE="2">
-  <tr>
-    <td width="27%">Drive Type</td>
-    </font><FONT FACE="Arial" SIZE="2">
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20" VALUE="<?php echo $boat_outdrivetype ?>"></td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
@@ -237,12 +231,6 @@ Driver Information<br></FONT></U></B></font></P>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Length</td>
-    </font><FONT FACE="Arial" SIZE="2">
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatlength" size="9" VALUE="<?php echo $boat_length ?>"></td>
-  </tr>
-  <FONT FACE="Arial Narrow" SIZE="2">
-  <tr>
     <td width="27%">Hull</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2">
@@ -250,10 +238,22 @@ Driver Information<br></FONT></U></B></font></P>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Engines</td>
+    <td width="27%">Length</td>
+    </font><FONT FACE="Arial" SIZE="2">
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatlength" size="9" VALUE="<?php echo $boat_length ?>"></td>
+  </tr>
+  <FONT FACE="Arial Narrow" SIZE="2">
+  <tr>
+    <td width="27%"># of Engines</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatengines" size="6" VALUE="<?php echo $boat_engines ?>"> 
     (number of engines)</td>
+  </tr>
+  <FONT FACE="Arial Narrow" SIZE="2">
+  <tr>
+    <td width="27%">Drive Type</td>
+    </font><FONT FACE="Arial" SIZE="2">
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20" VALUE="<?php echo $boat_outdrivetype ?>"></td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
@@ -274,6 +274,12 @@ Driver Information<br></FONT></U></B></font></P>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2">
 <input type="text" name="txtBoatmods" size="64" VALUE="<?php echo $boat_mods ?>"></td>
+  </tr>
+  <FONT FACE="Arial Narrow" SIZE="2">
+  <tr>
+    <td width="27%">Port Of Call</td>
+    </font><FONT FACE="Arial" SIZE="2">
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtPortofCall" size="20" VALUE="<?php echo $boat_portofcall ?>"></td>
   </tr>
 </table>
 
