@@ -139,16 +139,10 @@ Driver Information
 </font><FONT FACE="Arial Narrow" SIZE="2">
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="68%" id="AutoNumber5">
   <tr>
-    <td width="27%">Name</td>
+    <td width="27%">Boat Name</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2">
 <input type="text" name="txtBoatname" size="40"></td>
-  </tr>
-  <FONT FACE="Arial Narrow" SIZE="2">
-  <tr>
-    <td width="27%">Drive Type</td>
-    </font><FONT FACE="Arial" SIZE="2">
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20"></td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
@@ -165,23 +159,29 @@ Driver Information
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Length</td>
-    </font><FONT FACE="Arial" SIZE="2">
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatlength" size="9"></td>
-  </tr>
-  <FONT FACE="Arial Narrow" SIZE="2">
-  <tr>
-    <td width="27%">Hull</td>
+    <td width="27%">Hull Type</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2">
     <input type="text" name="txtBoathull" size="9">&nbsp; (V or Tunnel)</td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Engines</td>
+    <td width="27%">Boat Length</td>
+    </font><FONT FACE="Arial" SIZE="2">
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatlength" size="9"></td>
+  </tr>
+  <FONT FACE="Arial Narrow" SIZE="2">
+  <tr>
+    <td width="27%"># of Engines</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatengines" size="6"> 
     (number of engines)</td>
+  </tr>
+  <FONT FACE="Arial Narrow" SIZE="2">
+  <tr>
+    <td width="27%">Drive Type</td>
+    </font><FONT FACE="Arial" SIZE="2">
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20"></td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
@@ -202,6 +202,12 @@ Driver Information
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2">
 <input type="text" name="txtBoatmods" size="64"></td>
+  </tr>
+  <FONT FACE="Arial Narrow" SIZE="2">
+  <tr>
+    <td width="27%">Port of Call</td>
+    </font><FONT FACE="Arial" SIZE="2">
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtPortofCall" size="20"></td>
   </tr>
 </table>
 <P><FONT FACE="Arial" SIZE="2"><INPUT TYPE="submit" VALUE="Submit" NAME="cmdRegDetailbutton"></FONT></P>
