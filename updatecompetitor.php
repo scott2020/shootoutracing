@@ -27,7 +27,7 @@ mysql_select_db($DB_NAME,$con);
 	$sql = "";
 
 #	mysql_select_db("shootout",$con);
-	$sql = "UPDATE competitors SET driver_first = '$txtFirst',driver_middle='$txtMiddle',driver_last='$txtLast',driver_dob='$txtDOB',driver_address='$txtAddress',driver_city='$txtCity',driver_state='$txtState',driver_zip='$txtZip',driver_dl='$txtDL',driver_phone='$txtPhone',driver_email='$txtEmail',bio='$txtBio',owner_first='$txtOwnFirst',owner_middle='$txtOwnMiddle',owner_last='$txtOwnLast',owner_address='$txtOwnAddress',owner_city='$txtOwnCity',owner_state='$txtOwnSt',owner_zip='$txtOwnZip',owner_phone='$txtOwnPhone',sponsor_name='$txtSponsorname',sponsor_address='$txtSponsorAddress',emer_first='$txtEmerFirst',emer_last='$txtEmerLast',emer_address='emeraddress',emer_phone='$txtEmerPhone',emer_relation='EmerRelationupdate',boat_name='$txtBoatname',boat_year='$txtBoatyear',boat_mfg='$txtBoatmfg',boat_hull='$txtBoathull',boat_length='$txtBoatlength',boat_engines='$txtBoatengines',boat_block='$txtBoatblock',boat_cuinch='$txtBoatCuinch',boat_outdrivetype='$txtOutdrive',boat_mods='$txtBoatmods',boat_state='SU' WHERE competitor_id=$competitor";
+	$sql = "UPDATE competitors SET driver_first = '$txtFirst',driver_middle='$txtMiddle',driver_last='$txtLast',driver_dob='$txtDOB',driver_address='$txtAddress',driver_address2='$txtThottleman',driver_city='$txtCity',driver_state='$txtState',driver_zip='$txtZip',driver_dl='$txtDL',driver_phone='$txtPhone',driver_email='$txtEmail',bio='$txtBio',owner_first='$txtOwnFirst',owner_middle='$txtOwnMiddle',owner_last='$txtOwnLast',owner_address='$txtOwnAddress',owner_city='$txtOwnCity',owner_state='$txtOwnSt',owner_zip='$txtOwnZip',owner_phone='$txtOwnPhone',sponsor_name='$txtSponsorname',sponsor_address='$txtSponsorAddress',emer_first='$txtEmerFirst',emer_last='$txtEmerLast',emer_address='emeraddress',emer_phone='$txtEmerPhone',emer_relation='EmerRelationupdate',boat_name='$txtBoatname',boat_year='$txtBoatyear',boat_mfg='$txtBoatmfg',boat_hull='$txtBoathull',boat_length='$txtBoatlength',boat_engines='$txtBoatengines',boat_block='$txtBoatblock',boat_cuinch='$txtBoatCuinch',boat_outdrivetype='$txtOutdrive',boat_mods='$txtBoatmods',boat_state='SU' WHERE competitor_id=$competitor";
 
 	echo "SQL IS $sql<br>";
 	
@@ -66,7 +66,7 @@ while ($i < $num) {
 	$driver_last = mysql_result($classresult,$i,"driver_last");
 	$driver_dob = mysql_result($classresult,$i,"driver_dob");
 	$driver_address = mysql_result($classresult,$i,"driver_address");
-#	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
+	$driver_address2 = mysql_result($classresult,$i,"driver_address2");
 	$driver_city = mysql_result($classresult,$i,"driver_city");
 	$driver_state = mysql_result($classresult,$i,"driver_state");
 	$driver_zip = mysql_result($classresult,$i,"driver_zip");
