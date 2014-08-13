@@ -138,13 +138,9 @@ Driver Information<br>
     <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="20" NAME="txtDOB" VALUE="<?php echo $driver_dob ?>"></td>
   </tr>
   <tr>
-    <td width="27%"><font face="Arial Narrow">Address 1</font></td>
+    <td width="27%"><font face="Arial Narrow">Address</font></td>
     <td width="73%"><FONT FACE="Arial" SIZE="2">
 <INPUT TYPE="text" SIZE="27" NAME="txtAddress" VALUE="<?php echo $driver_address ?>"></td>
-  </tr>
-  <tr>
-    <td width="27%"><font face="Arial Narrow">Address 2</font></td>
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="26" name="txtAddress2"></td>
   </tr>
   <tr>
     <td width="27%"><font face="Arial Narrow">City</font></td>
@@ -171,6 +167,11 @@ Driver Information<br>
     <td width="27%"><font face="Arial Narrow">Email</font></td>
     <td width="73%"><FONT FACE="Arial" SIZE="2">
     <INPUT TYPE="text" SIZE="25" NAME="txtEmail" VALUE="<?php echo $driver_email ?>"></td>
+  </tr>
+  <tr>
+    <td width="27%"><font face="Arial Narrow">Throttleman</font></td>
+    <td width="73%"><FONT FACE="Arial" SIZE="2">
+<INPUT TYPE="text" SIZE="27" NAME="txtAddress" VALUE="<?php echo $driver_address2 ?>"></td>
   </tr>
     <tr>
     <td width="27%"><font face="Arial Narrow">Bio</font></td>
