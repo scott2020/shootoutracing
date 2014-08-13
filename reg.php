@@ -61,7 +61,7 @@ Driver Information
     <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="20" NAME="txtDOB"></td>
   </tr>
   <tr>
-    <td width="27%"><font face="Arial Narrow">Address 1</font></td>
+    <td width="27%"><font face="Arial Narrow">Address</font></td>
     <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="27" NAME="txtAddress"></td>
   </tr>
   <tr>
