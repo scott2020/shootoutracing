@@ -163,7 +163,7 @@ Driver Information<br></FONT></U></B></font></P>
   </tr>
   <tr>
 <td width="27%"><font face="Arial Narrow">Throttleman</font></td>
-<td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="26" name="txtAddress2"></td>
+<td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="26" name="txtAddress2" VALUE="<?php echo $driver_address2 ?>"></td>
 </tr>
   <tr>
     <td width="27%"><font face="Arial Narrow">Bio</font></td>
