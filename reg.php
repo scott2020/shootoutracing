@@ -65,10 +65,6 @@ Driver Information
     <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="27" NAME="txtAddress"></td>
   </tr>
   <tr>
-    <td width="27%"><font face="Arial Narrow">Address 2</font></td>
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="26" name="txtAddress2"></td>
-  </tr>
-  <tr>
     <td width="27%"><font face="Arial Narrow">City</font></td>
     <td width="73%"><FONT FACE="Arial" SIZE="2">
 <INPUT TYPE="text" SIZE="16" NAME="txtCity"></td>
@@ -93,6 +89,10 @@ Driver Information
     <td width="27%"><font face="Arial Narrow">Email</font></td>
     <td width="73%"><FONT FACE="Arial" SIZE="2">
     <INPUT TYPE="text" SIZE="25" NAME="txtEmail"></td>
+  </tr>
+  <tr>
+    <td width="27%"><font face="Arial Narrow">Throttleman</font></td>
+    <td width="73%"><FONT FACE="Arial" SIZE="2"><INPUT TYPE="text" SIZE="26" name="txtAddress2"></td>
   </tr>
   <tr>
     <td width="27%"><font face="Arial Narrow">Bio</font></td>
