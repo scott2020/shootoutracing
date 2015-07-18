@@ -21,6 +21,38 @@ mysql_select_db($DB_NAME,$con);
 
 	echo "Updating Competitor number $competitor <BR>";
 	echo "<br>";
+	
+	$txtFirst=mysql_real_escape_string($_POST['txtFirst']);
+$txtMiddle=mysql_real_escape_string($_POST['txtMiddle']);
+$txtLast=mysql_real_escape_string($_POST['txtLast']);
+$txtDOB=mysql_real_escape_string($_POST['txtDOB']);
+$txtAddress=mysql_real_escape_string($_POST['txtAddress']);
+$txtThrottleman=mysql_real_escape_string($_POST['txtThrottleman']);
+$txtCity=mysql_real_escape_string($_POST['txtCity']);
+$txtState=mysql_real_escape_string($_POST['txtState']);
+$txtZip=mysql_real_escape_string($_POST['txtZip']);
+$txtDL=mysql_real_escape_string($_POST['txtDL']);
+$txtPhone=mysql_real_escape_string($_POST['txtPhone']);
+$txtOwnFirst=mysql_real_escape_string($_POST['txtOwnFirst']);
+$txtOwnMiddle=mysql_real_escape_string($_POST['txtOwnMiddle']);
+$txtOwnLast=mysql_real_escape_string($_POST['txtOwnLast']);
+$txtOwnAddress=mysql_real_escape_string($_POST['txtOwnAddress']);
+$txtOwnCity=mysql_real_escape_string($_POST['txtOwnCity']);
+$txtOwnSt=mysql_real_escape_string($_POST['txtOwnSt']);
+$txtOwnZip=mysql_real_escape_string($_POST['txtOwnZip']);
+$txtSponsorname=mysql_real_escape_string($_POST['txtSponsorname']);
+$txtSponsorAddress=mysql_real_escape_string($_POST['txtSponsorAddress']);
+$txtEmerFirst=mysql_real_escape_string($_POST['txtEmerFirst']);
+$txtEmerLast=mysql_real_escape_string($_POST['txtEmerLast']);
+$txtBoatname=mysql_real_escape_string($_POST['txtBoatname']);
+$txtBoatmfg=mysql_real_escape_string($_POST['txtBoatmfg']);
+$txtBoathull=mysql_real_escape_string($_POST['txtBoathull']);
+$txtBoatengines=mysql_real_escape_string($_POST['txtBoatengines']);
+$txtBoatblock=mysql_real_escape_string($_POST['txtBoatblock']);
+$txtOutdrive=mysql_real_escape_string($_POST['txtOutdrive']);
+$txtBoatmods=mysql_real_escape_string($_POST['txtBoatmods']);
+$txtBio=mysql_real_escape_string($_POST['txtBio']);
+
 
 	#$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
   
