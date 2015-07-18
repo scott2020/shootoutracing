@@ -113,6 +113,7 @@ echo "<br>Query = $sql";
 
    $result = mysql_query($sql);
    
+   echo "<br>Reult = $result";
    if ($result) {
 
    #echo "result = $result<br>\n";
