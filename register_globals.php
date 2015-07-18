@@ -1,4 +1,5 @@
 <?php
+echo "Go <A HREF = './index.php'>Go Back to Main Menu</A><br>";
 /**
  * function to emulate the register_globals setting in PHP
  * for all of those diehard fans of possibly harmful PHP settings :-)
