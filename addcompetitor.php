@@ -106,6 +106,7 @@ if(isset($_POST)){
             $value=stripslashes($value);
         }
         $_POST[$key]=mysql_real_escape_string($value);
+        echo $value;
     }
 }
 
