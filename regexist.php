@@ -82,7 +82,7 @@ while ($i < $num) {
 	$boat_outdrivetype = mysql_result($classresult,$i,"boat_outdrivetype");
 	$boat_mods = mysql_result($classresult,$i,"boat_mods");
 	$boat_state = mysql_result($classresult,$i,"boat_state");
-    $bio = mysql_result($classresult,$i,"bio");
+        $bio = mysql_result($classresult,$i,"bio");
 	$runs_remain = mysql_result($classresult,$i,"runs_remain");
 
 
