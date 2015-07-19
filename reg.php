@@ -3,8 +3,6 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-<META NAME="GENERATOR" CONTENT="Microsoft FrontPage 5.0">
-<META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
 <?php include './config.php';?>
 <TITLE>Registration Detail Screen - <?php echo $SITE_NAME;?></TITLE>
 </HEAD>
