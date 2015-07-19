@@ -4,7 +4,7 @@
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
 <META NAME="GENERATOR" CONTENT="Notepad">
-<META NAME="ProgId" CONTENT="Notepad">
+<META NAME="ProgId" CONTENT="Notepad2015">
 <TITLE>Competitor Edit Screen</TITLE>
 </HEAD>
 
