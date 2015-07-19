@@ -69,7 +69,7 @@ mysql_select_db($DB_NAME,$con);
 
 $sql = "SELECT * from classes WHERE class_id = '$txtClassID'";
 
-echo "<br>Query was $sql<br>";
+#echo "<br>Query was $sql<br>";
 
 $classresult = mysql_query($sql);
 
@@ -137,11 +137,11 @@ $txtBio=mysql_real_escape_string($_POST['txtBio']);
 
    $sql = "INSERT INTO competitors (driver_first,driver_middle,driver_last,driver_dob,driver_address,driver_address2,driver_city,driver_state,driver_zip,driver_dl,driver_phone,owner_first,owner_middle,owner_last,owner_address,owner_city,owner_state,owner_zip,owner_phone,sponsor_name,sponsor_address,emer_first,emer_last,emer_address,emer_phone,emer_relation,boat_name,boat_year,boat_mfg,boat_hull,boat_length,boat_engines,boat_block,boat_cuinch,boat_outdrivetype,boat_mods,boat_state,boat_class,boat_number, driver_email,bio,runs_remain) VALUES ('$txtFirst','$txtMiddle','$txtLast','$txtDOB','$txtAddress','$txtThrottleman','$txtCity','$txtState','$txtZip','$txtDL','$txtPhone','$txtOwnFirst','$txtOwnMiddle','$txtOwnLast','$txtOwnAddress','$txtOwnCity','$txtOwnSt','$txtOwnZip','$txtOwnPhone','$txtSponsorname','$txtSponsorAddress','$txtEmerFirst','$txtEmerLast','emeraddress','$txtEmerPhone','emerRelation','$txtBoatname','$txtBoatyear','$txtBoatmfg','$txtBoathull','$txtBoatlength','$txtBoatengines','$txtBoatblock','$txtBoatCuinch','$txtOutdrive','$txtBoatmods','ST','$class_name','$class_count','$txtEmail','$txtBio','$txtRuns')";
    #$sql = "INSERT INTO competitors (driver_first,driver_middle,driver_last,driver_dob,driver_address,driver_address2,driver_city,driver_state,driver_zip,driver_dl,driver_phone,owner_first,owner_middle,owner_last,owner_address,owner_city,owner_state,owner_zip,owner_phone,sponsor_name,sponsor_address,emer_first,emer_last,emer_address,emer_phone,emer_relation,boat_name,boat_year,boat_mfg,boat_hull,boat_length,boat_engines,boat_block,boat_cuinch,boat_outdrivetype,boat_mods,boat_state,boat_class,boat_number, driver_email,bio,runs_remain) VALUES ('".mysql_real_escape_string($txtFirst)."','$txtMiddle','".mysql_real_escape_string($txtLast)."','$txtDOB','".mysql_real_escape_string($txtAddress)."','$txtThrottleman','".mysql_real_escape_string($txtCity)."','$txtState','$txtZip','$txtDL','$txtPhone','$txtOwnFirst','$txtOwnMiddle','$txtOwnLast','$txtOwnAddress','$txtOwnCity','$txtOwnSt','$txtOwnZip','$txtOwnPhone','$txtSponsorname','$txtSponsorAddress','$txtEmerFirst','$txtEmerLast','emeraddress','$txtEmerPhone','emerRelation','$txtBoatname','$txtBoatyear','$txtBoatmfg','$txtBoathull','$txtBoatlength','$txtBoatengines','$txtBoatblock','$txtBoatCuinch','$txtOutdrive','$txtBoatmods','ST','$class_name','$class_count','$txtEmail','$txtBio','$txtRuns')";
-echo "<br>Query = $sql";
+#echo "<br>Query = $sql";
 
    $result = mysql_query($sql);
    
-   echo "<br>Reult = $result";
+#   echo "<br>Reult = $result";
    if ($result) {
 
    #echo "result = $result<br>\n";
