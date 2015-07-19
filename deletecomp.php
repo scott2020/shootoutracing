@@ -9,7 +9,6 @@
 </HEAD>
 
 <BODY>
-This is probaby not used.  use the admininstration pages. Verify
 
 <?php
 include './config.php';
