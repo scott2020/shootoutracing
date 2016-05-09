@@ -1,8 +1,8 @@
 <?php
 echo "<A HREF = '../shootout15/index.php'>Go Back to Main Menu</A><br>";
 // ** MySQL settings ** //
-$SITE_NAME = 'Shootout 2015';
-$DB_NAME = 'dalla_shootout15';
+$SITE_NAME = 'Shootout 2016';
+$DB_NAME = 'dalla_shootout16';
 $DB_USER = 'dalla_shootout16';
 $DB_PASS = 'fartman1';
 $DB_HOST = 'daldb.vpsdime.com';
