@@ -64,7 +64,7 @@ register_globals();
 #$txtClassID = $_GET['txtClassID'];
 
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 $sql = "SELECT * from classes WHERE class_id = '$txtClassID'";
@@ -98,7 +98,7 @@ mysql_close($con);
 
 #Add the competitor
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 #SUCHSBALLAZ $sql = sprintf("INSERT INTO competitors (driver_first,driver_middle,driver_last,driver_dob,driver_address,driver_address2,driver_city,driver_state,driver_zip,driver_dl,driver_phone,owner_first,owner_middle,owner_last,owner_address,owner_city,owner_state,owner_zip,owner_phone,sponsor_name,sponsor_address,emer_first,emer_last,emer_address,emer_phone,emer_relation,boat_name,boat_year,boat_mfg,boat_hull,boat_length,boat_engines,boat_block,boat_cuinch,boat_outdrivetype,boat_mods,boat_state,boat_class,boat_number, driver_email,bio,runs_remain) VALUES 
@@ -168,7 +168,7 @@ $txtBio=mysql_real_escape_string($_POST['txtBio']);
 
    mysql_close($con);
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
    $result = mysql_query("SELECT competitor_id FROM competitors WHERE boat_class='$txtClassname' AND 
