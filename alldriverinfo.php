@@ -17,7 +17,7 @@ include('register_globals.php');
 register_globals();
 
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 $sql = "SELECT * from competitors WHERE boat_class !='ZZZZ' ORDER BY boat_class, boat_number ASC";
@@ -101,7 +101,7 @@ echo"</td>";
 echo"<td width='41%' valign='top' align='left'>";
 echo"<h3><u>Previous Scores</u></h3>";
 
-$con2 = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con2 = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con2);
 
 #$con2 = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
