@@ -21,7 +21,7 @@ $competitor=$_REQUEST["competitor"];
 $class=$_REQUEST["class"];
 $txtScore=$_REQUEST["txtScore"];
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 	
 
@@ -42,7 +42,7 @@ mysql_select_db($DB_NAME,$con);
 
     mysql_close($con);
 
-	$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+	$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 	mysql_select_db($DB_NAME,$con);
 	
 
