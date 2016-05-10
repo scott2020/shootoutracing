@@ -30,7 +30,7 @@ if ($cmdAddclass) {
    # $con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
    #  mysql_select_db("shootout",$con);
 
-	$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+	$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 	mysql_select_db($DB_NAME,$con);
 
     $sql = "SELECT * FROM classes WHERE class_name = '$txtClass'";
@@ -59,7 +59,7 @@ if ($cmdAddclass) {
 #$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 #mysql_select_db("shootout",$con);
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 
@@ -105,7 +105,7 @@ mysql_close($con);
   
    #$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
    #mysql_select_db("shootout",$con);
-	$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+	$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 	mysql_select_db($DB_NAME,$con);
 
    $result = mysql_query("SELECT * FROM classes ORDER BY class_name ASC",$con);
