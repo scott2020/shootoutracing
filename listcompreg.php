@@ -25,7 +25,7 @@ $classname= $_GET['classname'];
 echo "<h2><A HREF = './reg.php?class=$class&classname=$classname'>Not Listed.  Enter new name for $classname</A></td></h2>";
 
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 
