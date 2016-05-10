@@ -18,7 +18,7 @@ register_globals();
 
 $competitor = $_GET['competitor'];
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 $sql = "SELECT * from competitors WHERE competitor_id = '$competitor'";
@@ -111,7 +111,7 @@ Driver Information for <?php echo $boat_class ?> - <?php echo $boat_number ?>
 
 
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
    #$result = mysql_query("SELECT * FROM speeds WHERE competitor_id=$competitor",$con);
