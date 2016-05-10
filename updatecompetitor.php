@@ -16,7 +16,7 @@ include('register_globals.php');
 register_globals();
 
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 	echo "Updating Competitor number $competitor <BR>";
@@ -78,7 +78,7 @@ $txtBio=mysql_real_escape_string($_POST['txtBio']);
 #$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 #mysql_select_db("shootout",$con);
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 $sql = "SELECT * from competitors WHERE competitor_id = '$competitor'";
