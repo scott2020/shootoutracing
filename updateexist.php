@@ -6,7 +6,7 @@
 <META NAME="Author" CONTENT="">
 <META NAME="Keywords" CONTENT="">
 <META NAME="Description" CONTENT="">
-</HEAD>
+</HEAD> 
 
 <BODY>
 
@@ -41,7 +41,7 @@ register_globals();
 # Lookup the class
 
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 #$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
@@ -79,7 +79,7 @@ mysql_close($con);
 #$con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 #mysql_select_db("shootout",$con);
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 
 
