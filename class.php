@@ -26,7 +26,7 @@ If you do not see the class you need to register, enter it in the box and click 
 </form>
 
 <?php
-include './config.php';
+include '/root/config.php';
 include('register_globals.php');
 register_globals();
 
