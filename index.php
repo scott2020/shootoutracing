@@ -2,7 +2,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<?php include './config.php';?>
+<?php include '/root/config.php';?>
 <title><?php echo $SITE_NAME;?></title>
 </head>
 
