@@ -39,7 +39,7 @@ if (isset($_GET['orderBy']) && in_array($_GET['orderBy'], $orderBy)) {
 #   $result = mysql_query("SELECT * FROM competitors ORDER BY ",$order,$con);
 $asscheek = 'SELECT * FROM competitors ORDER BY '.$order;
 
-$result = mysql_query($asscheek, $con);
+$result = mysql_query($asscheek);
 
 echo $order;
 echo $asscheek;
