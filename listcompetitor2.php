@@ -56,7 +56,7 @@ $num = mysql_numrows($result);
 #echo "<table border='1' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='70%' id='AutoNumber1'>";
 echo "<table cellspacing='0' cellpadding='0'>";
 echo "<tr>";
-echo "<th><a href='?orderBy=boat_number'>Boat #</a></th><th><a href='?orderBy=boat_class'>Class</a></th><th><a href='?orderBy=driver_first'>Boat #</a></th><th>Runs Left</th><th></th><th></th><th></th>";
+#echo "<th><a href='?orderBy=boat_number'>Boat #</a></th><th><a href='?orderBy=boat_class'>Class</a></th><th><a href='?orderBy=driver_first'>Boat #</a></th><th>Runs Left</th><th></th><th></th><th></th>";
 echo "</tr>";
 while ($myrow = mysql_fetch_row($result)) {
 		printf("<td>%s</td><td>%s-%s </td><td>%s %s </td><td>%s</td><td><a href= ./editruns.php?competitor=%s>Add Runs</a></td><td><A HREF = ./editcompetitor.php?competitor=%s>Edit</A></TD><td><A HREF=./driverinfo.php?competitor=%s>Info</A></TD><TD>",
