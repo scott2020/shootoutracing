@@ -225,7 +225,7 @@ Driver Information<br></FONT></U></B></font></P>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Manufacturer</td>
+    <td width="27%">Make</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatmfg" size="23" VALUE="<?php echo $boat_mfg ?>"></td>
   </tr>
@@ -254,13 +254,6 @@ Driver Information<br></FONT></U></B></font></P>
     <td width="27%">Drive Type</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20" VALUE="<?php echo $boat_outdrivetype ?>"></td>
-  </tr>
-  <FONT FACE="Arial Narrow" SIZE="2">
-  <tr>
-    <td width="27%">Engine Type</td>
-    </font><FONT FACE="Arial" SIZE="2">
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatblock" size="9" VALUE="<?php echo $boat_block ?>"> 
-    (small block. big block, outboard)</td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
