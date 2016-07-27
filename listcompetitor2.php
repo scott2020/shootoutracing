@@ -41,8 +41,8 @@ $asscheek = 'SELECT * FROM competitors ORDER BY '.$order;
 
 $result = mysql_query($asscheek);
 
-echo $order;
-echo $asscheek;
+#echo $order;
+#echo $asscheek;
 
 
 echo "<hr>";
