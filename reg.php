@@ -151,7 +151,7 @@ Driver Information
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Manufacturer</td>
+    <td width="27%">Make</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatmfg" size="23"></td>
   </tr>
@@ -177,16 +177,9 @@ Driver Information
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Drive Type</td>
+    <td width="27%">Drive Type (A, B, R)</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20"></td>
-  </tr>
-  <FONT FACE="Arial Narrow" SIZE="2">
-  <tr>
-    <td width="27%">Engine Type</td>
-    </font><FONT FACE="Arial" SIZE="2">
-    <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtBoatblock" size="9"> 
-    (small block. big block, outboard)</td>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
