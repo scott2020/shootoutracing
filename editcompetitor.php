@@ -251,7 +251,7 @@ Driver Information<br></FONT></U></B></font></P>
   </tr>
   <FONT FACE="Arial Narrow" SIZE="2">
   <tr>
-    <td width="27%">Drive Type</td>
+    <td width="27%">Drive Type (A, B, R)</td>
     </font><FONT FACE="Arial" SIZE="2">
     <td width="73%"><FONT FACE="Arial" SIZE="2"><input type="text" name="txtOutdrive" size="20" VALUE="<?php echo $boat_outdrivetype ?>"></td>
   </tr>
