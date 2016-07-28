@@ -3,7 +3,7 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-<?php include './config.php';?>
+<?php include '/config/config.php';?>
 <TITLE>Registration Detail Screen - <?php echo $SITE_NAME;?></TITLE>
 </HEAD>
 <p align="center"><img border="0" src="page_top.gif" width="610" height="88"></p>
