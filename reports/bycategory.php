@@ -13,7 +13,7 @@
 <?php
 
 echo "<h2> Overall Top Scores for Division $category </h2>";
-include '../config.php';
+include '/config/config.php';
 include('../register_globals.php');
 register_globals();
 
