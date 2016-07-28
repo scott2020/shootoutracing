@@ -103,6 +103,7 @@
 </table>
 
 <br>
+<?php include 'b2.php';?>
 Using database <?php echo $DB_NAME;?>
 </body>
 
