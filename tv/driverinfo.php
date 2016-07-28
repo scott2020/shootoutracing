@@ -17,7 +17,7 @@ TD{font-family: Arial; font-size: 14pt;}
 <?php
 
 #echo "You clicked $class <br>";
-include '../config.php';
+include '/config/config.php';
 include('../register_globals.php');
 register_globals();
 
