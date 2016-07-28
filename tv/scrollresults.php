@@ -16,7 +16,7 @@ These are the scores for the Lake Shootout <br>
 Current as of <?=date( "F d, Y  H:i T.")?><br>
 
 <?php
-include '../config.php';
+include '/config/config.php';
 include('../register_globals.php');
 register_globals();
 
