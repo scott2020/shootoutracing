@@ -16,7 +16,7 @@ Previous Scores for <?php echo $_REQUEST["boat"] ?>
 
 
 <?php
-include './config.php';
+include '/config/config.php';
 include('register_globals.php');
 register_globals();
 
