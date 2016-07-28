@@ -15,7 +15,7 @@ Choose a Competitor </h2> <br>
 
 <?php
 
-include './config.php';
+include '/config/config.php';
 include('register_globals.php');
 register_globals();
 
